@@ -4,6 +4,12 @@ NZB Mule is a lightweight iOS helper app for opening `nzblnk://` links and `.nzb
 
 The app supports both **NZBGet** and **SABnzbd**.
 
+## App Store
+
+NZB Mule is available exclusively on the Apple App Store.
+
+This repository is provided for documentation, and issue tracking. Official releases are distributed only through the App Store.
+
 ## Features
 
 - Open `nzblnk://` links on iPhone or iPad
@@ -40,7 +46,7 @@ In SABnzbd, make sure your server is reachable from your iOS device.
 
 Check:
 
-- Host is not limited to `localhost` only, set to 0.0.0.0
+- Host is not limited to `localhost` only
 - Port is reachable from your local network
 - API key is copied or scanned into NZB Mule
 - Firewall allows local connections
@@ -75,15 +81,26 @@ When an `nzblnk://` link is opened on your device, NZB Mule launches automatical
 
 ## Privacy
 
-NZB Mule does not host, provide, or distribute downloadable content.
+NZB Mule does not include, host, index, or provide downloadable content.
 
-The app only processes links and files that you open yourself and forwards NZB data to your configured download client.
+The app only processes links and files explicitly opened by the user and forwards NZB data to the configured download client.
 
 Client settings are stored locally on your device using the iOS Keychain.
 
-## Support
+## Support & Issues
 
-For issues, bug reports, or feature requests, please use the GitHub Issues tab.
+For bug reports, connection problems, or feature requests, please open an issue in this repository.
+
+When reporting a connection issue, please include:
+
+- iOS version
+- App version
+- Download client used: NZBGet or SABnzbd
+- Whether you use HTTP or HTTPS
+- Local network setup if relevant
+- Error message or screenshot if available
+
+Please do not post private API keys, passwords, or personal server addresses in public issues.
 
 ## Disclaimer
 
